@@ -1,0 +1,103 @@
+/* 共通 */
+html {
+  height: 100%;
+}
+
+a {
+  display: block;
+}
+
+body {
+  background: linear-gradient(180deg, rgb(1, 106, 200)30%, rgb(115, 184, 213), rgb(243, 223, 57));
+  color: #fff;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+label,form {
+  display: block;
+}
+
+.input {
+  box-shadow: none;
+  border: solid 1px #444;
+  background: #fff;
+  border-radius: 6px;
+  padding: 7px 6px;
+  appearance: none;
+  color: inherit;
+  font-family: inherit;
+  width: 95%;
+}
+
+button {
+  box-shadow: none;
+  border: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  z-index: 200;
+}
+
+.login_title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.title_main {
+  font-size: 50px;
+}
+
+.title_main span {
+  font-weight: normal;
+}
+
+.title_sub {
+  font-size: 25px;
+}
+
+.login_box {
+  background: rgb(0, 0, 0 ,0.2);
+  width: 80%;
+  padding: 30px 20px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.form-title {
+  text-align: center;
+}
+/* /共通/ */
+
+.login_form {
+  margin: 30px 0;
+}
+.login_title {
+  margin-bottom: 30px;
+  line-height: 44px;
+}
+
+.login_button {
+  background: red;
+  color: #fff;
+  padding: 7px 25px;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+}
+
+.register_link {
+  color: #fff;
+  text-align: center;
+}
