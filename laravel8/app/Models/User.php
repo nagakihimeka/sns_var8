@@ -18,8 +18,8 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
-        'name',
-        'email',
+        'username',
+        'mail',
         'password',
     ];
 
@@ -41,4 +41,14 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function InsertUser($request) {
+        // リクエストデータを基に管理マスターユーザーに登録する
+        return $this->create([
+            'username' => $request->name,
+            'mail' => $request->mail,
+            'password' => $request->pass,
+        ]);
+
+    }
 }

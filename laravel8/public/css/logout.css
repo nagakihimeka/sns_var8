@@ -28,7 +28,7 @@ label,form {
   border-radius: 6px;
   padding: 7px 6px;
   appearance: none;
-  color: inherit;
+  color: #000;
   font-family: inherit;
   width: 95%;
 }

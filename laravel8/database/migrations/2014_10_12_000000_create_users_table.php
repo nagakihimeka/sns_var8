@@ -21,7 +21,7 @@ class CreateUsersTable extends Migration
             $table->string('bio',400)->nullable();
             $table->string('image')->default('icon1.png');
             $table->timestamp('created_at');
-            $table->timestamp('update_at')->useCurrent()->useCurrentOnUpdate();
+            $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
             // useCurrent：現在時刻をデフォルトで設定
         });
     }

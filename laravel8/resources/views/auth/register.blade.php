@@ -27,7 +27,7 @@
   </div>
   <div class="">
     <label for="" name="pass">パスワード</label>
-    <input class="input" type="text" id="pass">
+    <input class="input" type="text" id="pass" name = "pass">
   </div>
   <div class="">
     <label for="" name="pass_sub">パスワード確認</label>
